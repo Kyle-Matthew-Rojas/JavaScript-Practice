@@ -13,7 +13,7 @@ secretMessage.shift();
 secretMessage.unshift('Programming');
 //console.log(secretMessage);
 
-secretMessage.splice(secretMessage.indexOf('get'), secretMessage.indexOf('time,') - 5, 'know,');
+secretMessage.splice(6,5, 'know,');
 console.log(secretMessage);
 
 console.log(secretMessage.join(' '));
